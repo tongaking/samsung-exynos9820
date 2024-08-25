@@ -57,8 +57,9 @@ jobs:
                        model=${{ matrix.model }} \
                        name="Cruel-5.3"        \
                        toolchain=$TOOLCHAIN      \
-                       +magisk=27.7                  \
+                       +magisk=alpha                  \
                        +nohardening              \
+                       +nohardening2\
                        +ttl                      \
                        +wireguard                \
                        +cifs                     \
@@ -70,6 +71,8 @@ jobs:
                        +nomodules \
                        +noaudit \
                        +noksm \
+                       +noswap\
+                       +nozram\
                        +fake_config \
                        +usb_serial \
                        +sched_performance \
