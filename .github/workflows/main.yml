@@ -69,7 +69,6 @@ jobs:
                        +boeffla_wl_blocker       \
                        +mass_storage             \
                        +300hz                    \
-                       +nozram                   \
                        +sched_performance        \
           2>&1 | tee config.info
 
